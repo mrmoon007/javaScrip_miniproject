@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.bg_nav {
+    background-image: url('../img/slide-1.jpg');
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+.nav-container {
+    background-color: brown;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.nav-container a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.after_scroll_nav_bg {
+    background-color: blue;
+}
