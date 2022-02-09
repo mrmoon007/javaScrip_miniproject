@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rebeccapurple;
+    align-items: center;
+}
+.container {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: aqua;
+    
+}
+.content {
+    padding: 30px;
+}
+.content input {
+    border-radius: 5px;
+    height: 42px;
+    width: 100%;
+}
+
+.content button {
+    height: 40px;
+    width: 100%;
+    margin: 6px 0;
+}
