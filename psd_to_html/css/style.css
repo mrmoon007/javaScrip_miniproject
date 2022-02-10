@@ -1,0 +1,80 @@
+/******************************************
+ common css
+*******************************************/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, serif sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 950px;
+    width: 96%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+/******************************************
+ Top header css
+*******************************************/
+
+.header_area {
+    width: 100%;
+    clear: both;
+}
+.top_header_area {
+    width: 100%;
+    background-color: #ba2e1f;
+    padding: 15px 0;
+}
+
+.inner_top_header {
+    overflow: hidden;
+}
+
+.top_mini_menu {
+    float: left;
+    width: 70%;
+}
+.top_mini_menu ul {
+    list-style: none;
+}
+.top_mini_menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+.top_mini_menu ul li::after {
+    background: #fff;
+    content: "";
+    position: absolute;
+    top: 6px;
+    right: -10px;
+    height: 12px;
+    width: 1px;
+}
+.top_mini_menu ul li:last-child::after {
+    display: none;
+}
+.top_mini_menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+.top_mini_menu ul li a:hover {
+    color: #ddd;
+}
+.search_area {
+    float: right;
+    width: 30%;
+}
