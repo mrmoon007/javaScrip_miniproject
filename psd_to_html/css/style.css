@@ -44,6 +44,7 @@ img {
 .top_mini_menu {
     float: left;
     width: 70%;
+    padding-top: 5px;
 }
 .top_mini_menu ul {
     list-style: none;
@@ -77,4 +78,90 @@ img {
 .search_area {
     float: right;
     width: 30%;
+}
+.search_area form {
+    background-color: white;
+    border-radius: 25px;
+    max-width: 210px;
+    float: right;
+    padding: 2%;
+    width: 96%;
+}
+.search_area input {
+    border: 0px solid;
+    width: 75%;
+    color: #000;
+    padding: 1%;
+    float: left;
+}
+.search_area input[type="submit"] {
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 23%;
+    cursor: pointer;
+}
+
+/******************************************
+ Main header css
+*******************************************/
+.main_header_area {
+    width: 100%;
+    clear: both;
+}
+.inner_header_area {
+    padding: 25px 0;
+    overflow: hidden;
+}
+
+.logo_area {
+    float: left;
+    width: 250px;
+}
+
+.social_area {
+    float: right;
+    
+}
+.social_area ul {
+    list-style: none;
+    text-align: right;
+
+}
+.social_area ul li {
+    display:inline-block;
+    margin-left: 15px;
+}
+.social_area ul li a {
+    display: block;
+    text-decoration: none;
+}
+.social_area ul li a i{
+    background: #333333;
+    border-radius: 50%;
+    display: block;
+    width: 35px;
+    height: 34px;
+    text-align: center;
+    color: #fff;
+    padding-top: 9px;
+}
+
+.social_area ul li a:hover i{
+    background: #ba2e1f;
+}
+.social_area ul li a:hover i.fa-linkedin-in{
+    background: #0174B0;
+}
+.social_area ul li a:hover i.fa-twitter{
+    background: #41B7E5;
+}
+.social_area ul li a:hover i.fa-google-plus-g{
+    background: #D64134;
+}
+.social_area ul li a:hover i.fa-pinterest{
+    background: #DE2A32;
+}
+.social_area ul li a:hover i.fa-rss{
+    background: #ee802f;
 }
