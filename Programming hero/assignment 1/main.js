@@ -18,3 +18,30 @@ function tinyFriend( friends ) {
 }
 
 console.log(tinyFriend(['moon0','mostafijur','hemal']))
+
+
+//check odd even number 
+
+function checkOddEvenNumber (items) {
+    let values = [];
+    let odd= [];
+    let even = [];
+    items.forEach(item => {
+        console.log(item);
+        if (item%2 == 0) {
+            odd.push(item);
+            
+        } else {
+            even.push(item);
+            
+        }
+    });
+    // values.push(odd);
+    values[odd]=odd;
+    values[even]=even;
+    // values.push(even);
+    return values;
+}
+
+let m = checkOddEvenNumber([1,5,90,45]);
+console.log('result ',m);
